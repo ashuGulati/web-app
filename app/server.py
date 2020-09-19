@@ -15,7 +15,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1dk11LzRkYOc9ikF-7tkCHQfwa-DBx0tV'
 export_file_name = 'save_model.pb'
 
-classes = ['dal', 'gulab', 'puri', 'roti']
+classes = ['Plate', 'Dal', 'Bhaji', 'Roti', 'Puri', 'Rice', 'Gulabjamun']
 path = Path(__file__).parent
 
 app = Starlette()
