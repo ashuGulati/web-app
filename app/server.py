@@ -9,13 +9,14 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-#export_file_url = 'https://drive.google.com/uc?export=download&id=1RTVeR3SDe4_xUTQiQtyQxTKFvs1_Xen1'
-#export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1RTVeR3SDe4_xUTQiQtyQxTKFvs1_Xen1'
+export_file_name = 'export.pkl'
+classes = ['dal', 'gulab', 'puri', 'roti']
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1dk11LzRkYOc9ikF-7tkCHQfwa-DBx0tV'
-export_file_name = 'save_model.pb'
+#export_file_url = 'https://drive.google.com/uc?export=download&id=1dk11LzRkYOc9ikF-7tkCHQfwa-DBx0tV'
+#export_file_name = 'save_model.pb'
 
-classes = ['Plate', 'Dal', 'Bhaji', 'Roti', 'Puri', 'Rice', 'Gulabjamun']
+#classes = ['Plate', 'Dal', 'Bhaji', 'Roti', 'Puri', 'Rice', 'Gulabjamun']
 path = Path(__file__).parent
 
 app = Starlette()
